@@ -1,35 +1,41 @@
+# This is a full repo clone from Arcanjo's project at Hacking Rio 2019
+
+## Arcanjo was the hackathon's winning team
+
 # Arcanjo - 2019
-## Time 6 / Saúde
-### Apresentação 
 
-Quando se precisa levar uma criança à emergência hoje no Rio de Janeiro, além de todo o transporte e dificuldades para se encontrar os hospitais mais proximos e vazios, é necessário passar por um processo de check-in e triagem muitas vezes demorado que podem colocar uma vida em risco dependendo do grau da emergência. Além disso, mais de 50% dos casos atendidos na emergência não são casos emergenciais que poderiam estar sendo atendidos de outra forma, aumentando a fila para o atendimento e prolongando o tempo de espera. Outro fator que torna esse processo mais demorado é a realização do check-in  de maneira manual e previamente a triagem hospitalar, logo a criança que pode esta passando por um sério caso emergencial passa por um sério risco dado a espera prolongada. E os pais e responsáveis por essa criança passam por um transtorno maior do que o necessário, dada a ineficência do processo. 
+## Team 6 / Health Cluster
 
-### O Produto
+### Presentation
 
+When in need of taking a child to an emergency, in addition to all the transportation and difficulties to find the nearest and empty hospitals, it is necessary to go through a check-in and screening process that can often delay and worsen patients' symptoms depending on the degree of the emergency. Also, more than 50% of the cases treated in the ER are not emergency cases and could be being treated in another way. These cases increase the queue for assistance and prolonging the waiting time.
 
-#### Jornada do Usuário
+### The product
+
+#### The User's Journey
+
 <p align="center">
   <img src = "https://github.com/hackingrio/saude-2019-arcanjo/blob/master/docs/jornada-usuario.jpg?raw=true">
 </p>
 
+Arcanjo is a WhatsApp bot designed to improve several processes during the procedure of taking a child to a pediatric emergency. With our solution, when the person responsible for the child decides that it's time to go to the hospital, during the way he can perform a pre-screening of the patient, where he informs the bot about the various symptoms the child is feeling. Using Artificial Intelligence, the bot can classify these symptoms as 'Urgent' or 'Non-Urgent' and already set up a queue after check-in. This process provides more information about the waiting time inside the hospital, in addition to allowing the child's guardian to have an estimate of his position on the waiting list for care in the screening.
 
-O Arcanjo é um bot de WhatsApp capaz de agilizar diversos processos durante o procedimento de atendimento de uma criança em uma emergência pediátrica. Com a nossa solução, quando o responsável pela criança decide levá-la até o hospital, durante o caminho de ida ele pode realizar uma pré triagem da criança, onde ele informa ao bot os diferentes sintomas que ela está sentindo. Por meio de algoritmos de Inteligência Artificial, o bot consegue classificar esses sintomas entre caso 'Urgente' ou caso 'Não Urgente', e já monta uma fila de atendimento de triagem após ser realizado o check-in. Esse processo dá mais transparência ao responsável do tempo de espera dentro do hospital além de possibilitar que ele tenha uma estimativa da sua posição na lista de espera para atendimento na triagem.
+After performing this procedure, the bot can suggest nearby hospitals that have the necessary expertise to treat the child, showing the waiting time of each one. Also, knowing the severity of the patient's case, the bot can suggest a consultation if it identifies that the child's case is not so serious. This helps in solving a very common situation to happen in emergency services for children, 70% of children who are attended in the emergency do not have an urgent case.
 
-Após realizar esse procedimento, o bot, com conhecimento dos principais sintomas do paciente é capaz de sugerir hospitais próximos que possuem a especialidade necessária para tratar a criança, mostrando o tempo de espera de cada um. Além disso, tendo conhecimento da gravidade do caso do paciente o bot pode sugerir a realização de uma consulta caso identifique que o caso da criança não é tão grave. Isso auxilia na resolução de uma situação bastante comum de acontecer em serviços emergenciais para crianças, 70% das crianças que são atendidas na emergência não possuem um caso realmente urgente, o que é prejudicial a todas as crianças que realmente possuem estado urgente e estão na emergência. 
+After that, the child's guardian moves to the check-in phase prior to arrival at the hospital. The bot asks for documentation, which also allows to speed up the waiting time for check-in inside the hospital, receiving a QR Code for identification when getting to the hospital. Through this QR Code, it is possible to have control of all patient information, which can be transmitted from the moment of symptom information in the pre-screening, until the moment aftercare. In addition, the system allows the control of the user's stay in the hospital, making it possible to measure the average waiting time and to control productivity within the hospital.
 
-Depois disso, o responsável prossegue para a fase de check-in prévio à chegada no hospital, pedindo algumas documentações necessárias para atendimento, o que também permite agilizar o tempo de espera para check-in dentro do hospital, recebendo um QR Code para identificação quando chegar no hospital. Por meio desse QR Code, se é possível ter controle de todas as informações do paciente, podendo elas serem transmitidas desde o momento da informação dos sintomas na pré triagem, até o momento pós atendimento. Além disso, a utilização permite o controle do tempo de permanência do usuário dentro do hospital, possibilitando a medição do tempo de espera médio e um controle da produtividade dentro do hospital.
+After the ER care, the bot sends a follow-up message suggesting an appointment to perform a follow-up consultation, ensuring the user's return to the hospital and minimizing the chance of recurrence in the emergency.
 
-Após o atendimento, o bot manda uma mensagem de acompanhamento, onde ele sugere a marcação de consulta para a realização de exames de acompanhamento, garantindo o retorno do usuário ao hospital e minimizando a chance de reincidência na emergência.
+#### Application Infrastructure
 
-#### Infraestrutura da Aplicação
 <p align="center">
   <img src = "https://github.com/hackingrio/saude-2019-arcanjo/blob/master/docs/twil.png?raw=true">
 </p>
 
-### Informações adicionais 
-
+### Additional Information
 
 ##### RoadMap
+
 <p align="center">
   <img src = "https://github.com/hackingrio/saude-2019-arcanjo/blob/master/docs/roadmap.jpg?raw=true">
 </p>
