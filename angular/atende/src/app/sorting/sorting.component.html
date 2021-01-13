@@ -1,0 +1,26 @@
+<div></div>
+<!-- card com botao-->
+<div class="card" border-color=#FF0000>
+    <h2 class="text-center header">Atendimentos</h2>
+  <div class="card-body">
+    <div class='container'>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+                <li class="list-group-item d-flex bd-highlight" *ngFor="let item of items; let i = index">
+                    <div class="d-flex">
+                      <div class="circle emergencia p-2 flex-grow-1 bd-highlight">{{i+1}}</div>
+                    </div>
+                    <div class="p-2 flex-grow-1 bd-highligh">
+                      <span class="lista-espera-texto-title"></span> 
+                      <strong>{{item.patient.name}}</strong> 
+                      <p class="lista-espera-texto-sub-title">{{item.symptoms}}</p>
+                    </div>
+                    <div class="p-2 bd-highlight">
+                      <button type="button" class="btn btn-primary">Atender</button>
+                    </div>
+              </li>
+        </ul>
+    </div>
+    <img src="../assets/redeDor.png" style ='width: 350px; height: 150px;; margin-top: 15px;' class="card-img-top" class="rounded mx-auto d-block" alt="...">
+  </div>
+</div>

@@ -1,0 +1,36 @@
+.circle{
+    display: flex;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;    
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;;
+}
+
+
+.emergencia{
+    background-color: red;
+}
+
+.list-group-item{
+    background-color: #E8E8E8;
+}
+
+.medio{
+    background-color: yellow;
+}
+
+.leve{
+    background-color: green;
+}
+
+.lista-espera-texto-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header{
+    margin-top: 15px;
+}
